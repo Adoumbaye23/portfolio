@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="350" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#ffffff"/>
+  <rect x="100" y="80" width="300" height="200" rx="10" fill="#0a3d91"/>
+  <rect x="115" y="95" width="270" height="160" fill="#1a1a2e"/>
+  <text x="135" y="125" font-family="Tahoma" font-size="13" fill="#4caf50">> reg y x1 x2</text>
+  <text x="135" y="150" font-family="Tahoma" font-size="13" fill="#90caf9">Source     SS</text>
+  <text x="135" y="175" font-family="Tahoma" font-size="13" fill="#ffffff">Model    245.6</text>
+  <text x="135" y="200" font-family="Tahoma" font-size="13" fill="#ffffff">Resid     54.3</text>
+  <text x="135" y="225" font-family="Tahoma" font-size="13" fill="#ffeb3b">R² = 0.819</text>
+  <rect x="80" y="280" width="340" height="15" rx="3" fill="#0a3d91"/>
+  <rect x="160" y="295" width="180" height="20" rx="3" fill="#0a3d91"/>
+  <text x="250" y="335" text-anchor="middle" font-family="Tahoma" font-size="14" fill="#0a3d91" font-weight="bold">Formation logiciels statistiques</text>
+</svg>

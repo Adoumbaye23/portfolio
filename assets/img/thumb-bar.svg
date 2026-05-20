@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200">
+  <rect width="400" height="200" fill="#1565c0"/>
+  <line x1="40" y1="170" x2="370" y2="170" stroke="#ffffff" stroke-width="2"/>
+  <rect x="60" y="110" width="40" height="60" fill="#ffeb3b"/>
+  <rect x="120" y="80" width="40" height="90" fill="#ffffff"/>
+  <rect x="180" y="50" width="40" height="120" fill="#ffeb3b"/>
+  <rect x="240" y="95" width="40" height="75" fill="#ffffff"/>
+  <rect x="300" y="60" width="40" height="110" fill="#ffeb3b"/>
+  <text x="200" y="195" text-anchor="middle" font-family="Tahoma" font-size="12" fill="#ffffff">Indicateurs descriptifs</text>
+</svg>

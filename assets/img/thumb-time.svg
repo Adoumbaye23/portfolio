@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200">
+  <rect width="400" height="200" fill="#0277bd"/>
+  <line x1="40" y1="170" x2="370" y2="170" stroke="#ffffff" stroke-width="2"/>
+  <line x1="40" y1="20" x2="40" y2="170" stroke="#ffffff" stroke-width="2"/>
+  <polyline points="40,150 80,140 120,120 160,135 200,100 240,110 280,80 320,90 360,50"
+    fill="none" stroke="#ffeb3b" stroke-width="3"/>
+  <polyline points="40,160 80,155 120,145 160,150 200,135 240,140 280,125 320,128 360,110"
+    fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="4,4"/>
+  <text x="200" y="195" text-anchor="middle" font-family="Tahoma" font-size="12" fill="#ffffff">Série temporelle (VECM)</text>
+</svg>

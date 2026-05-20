@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="350" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#f5f8fc"/>
+  <line x1="50" y1="300" x2="470" y2="300" stroke="#0a3d91" stroke-width="2"/>
+  <line x1="50" y1="50" x2="50" y2="300" stroke="#0a3d91" stroke-width="2"/>
+  <g fill="#1565c0">
+    <circle cx="90" cy="260" r="4"/><circle cx="120" cy="240" r="4"/>
+    <circle cx="150" cy="245" r="4"/><circle cx="180" cy="220" r="4"/>
+    <circle cx="210" cy="205" r="4"/><circle cx="240" cy="190" r="4"/>
+    <circle cx="270" cy="175" r="4"/><circle cx="300" cy="160" r="4"/>
+    <circle cx="330" cy="140" r="4"/><circle cx="360" cy="125" r="4"/>
+    <circle cx="390" cy="115" r="4"/><circle cx="420" cy="95" r="4"/>
+    <circle cx="100" cy="270" r="4"/><circle cx="135" cy="225" r="4"/>
+    <circle cx="195" cy="235" r="4"/><circle cx="255" cy="200" r="4"/>
+    <circle cx="315" cy="180" r="4"/><circle cx="375" cy="100" r="4"/>
+  </g>
+  <line x1="60" y1="285" x2="450" y2="80" stroke="#e53935" stroke-width="3"/>
+  <text x="380" y="75" font-family="Tahoma" font-size="13" fill="#e53935" font-weight="bold">y = α + βx</text>
+  <text x="250" y="335" text-anchor="middle" font-family="Tahoma" font-size="14" fill="#0a3d91" font-weight="bold">Modèle de régression</text>
+</svg>

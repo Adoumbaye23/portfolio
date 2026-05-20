@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -L -o \"trav-stats.jpg\" \"https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80&auto=format&fit=crop\")",
+      "Bash(curl -s -L -o \"trav-econometrie.jpg\" \"https://images.unsplash.com/photo-1543286386-713bdd548da4?w=800&q=80&auto=format&fit=crop\")",
+      "Bash(curl -s -L -o \"trav-stata.jpg\" \"https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&q=80&auto=format&fit=crop\")",
+      "Bash(curl -s -L -o \"trav-r.jpg\" \"https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80&auto=format&fit=crop\")",
+      "Bash(curl -s -L -o \"trav-ia.jpg\" \"https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80&auto=format&fit=crop\")",
+      "PowerShell(git init)",
+      "PowerShell(git add .)",
+      "PowerShell(git -c user.email=\"madjyamadoumbaye23@gmail.com\" -c user.name=\"Adoumbaye23\" commit -m \"Initial commit\")",
+      "PowerShell(git branch -M main)",
+      "PowerShell(git remote add origin https://github.com/Adoumbaye23/Adoumbayestat.git)"
+    ]
+  }
+}

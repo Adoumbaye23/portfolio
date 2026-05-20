@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — Adoumbaye MADJYAM</title>
+    <meta name="description" content="Contactez Adoumbaye MADJYAM, statisticien-économiste, pour vos projets, formations et missions de consultance.">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- ====== Header ====== -->
+    <header class="site-header">
+        <div class="header-container">
+            <a href="index.html" class="logo"><img src="assets/img/mon-logo.jpeg" alt="Logo Adoumbaye MADJYAM"></a>
+            <button class="menu-toggle" aria-label="Menu">&#9776;</button>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="travaux.html">Mes travaux</a></li>
+                    <li><a href="services.html">Formations &amp; Consultance</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ====== Hero ====== -->
+    <section class="hero" style="padding: 3.5rem 2rem;">
+        <div class="hero-container">
+            <h1>Me contacter</h1>
+            <p class="subtitle">Pour toute demande de collaboration, formation ou consultance.</p>
+        </div>
+    </section>
+
+    <!-- ====== Contact ====== -->
+    <section class="section">
+        <h2 class="section-title">Échangeons sur votre projet</h2>
+        <p class="section-subtitle">Je vous réponds dans les meilleurs délais.</p>
+        <div class="section-divider"></div>
+
+        <div style="text-align: center; margin-bottom: 2.5rem;">
+            <img src="assets/img/contact.svg" alt="Restons en contact" style="max-width: 380px; width: 100%; height: auto;">
+        </div>
+
+        <!-- ====== Références ====== -->
+        <h3 style="text-align: center; color: var(--bleu-primaire); margin-bottom: 1.5rem;">Références professionnelles</h3>
+        <div class="services-grid" style="margin-bottom: 3rem;">
+            <div class="service-card">
+                <div class="service-icon">ID</div>
+                <h3>Idrissa DIAGNE</h3>
+                <p><em>Directeur de l'École Nationale de la Statistique et de l'Analyse Économique Pierre Ndiaye, Dakar</em></p>
+                <p>📞 +221 77 655 14 43<br>
+                ✉ <a href="mailto:diagne.idrissa@gmail.com">diagne.idrissa@gmail.com</a></p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">ML</div>
+                <h3>Moubarak LO</h3>
+                <p><em>Ancien DG du BPE, Expert en gestion publique, spécialiste en stratégie et ingénieur statisticien-économiste</em></p>
+                <p>📞 +221 77 865 77 77<br>
+                ✉ <a href="mailto:moubaracklo@gmail.com">moubaracklo@gmail.com</a></p>
+            </div>
+        </div>
+
+        <div class="contact-grid">
+
+            <!-- Coordonnées -->
+            <div class="contact-info">
+                <h3>Mes coordonnées</h3>
+
+                <div class="contact-item">
+                    <div class="contact-item-icon">@</div>
+                    <div>
+                        <strong>Email</strong><br>
+                        <a href="mailto:madjyamadoumbaye23@gmail.com">madjyamadoumbaye23@gmail.com</a>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-item-icon">📞</div>
+                    <div>
+                        <strong>Téléphone / WhatsApp</strong><br>
+                        <a href="tel:+221000000000">+221 77 626 94 16</a>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-item-icon">📍</div>
+                    <div>
+                        <strong>Localisation</strong><br>
+                        SICAP Rue 10, Dakar (Sénégal) — Disponible également à distance
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-item-icon">📄</div>
+                    <div>
+                        <strong>Mon CV</strong><br>
+                        <a href="assets/cv/CV-Adoumbaye-MADJYAM.pdf" download>Télécharger le CV (PDF)</a>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-item-icon">in</div>
+                    <div>
+                        <strong>LinkedIn</strong><br>
+                        <a href="https://www.linkedin.com/in/adoumbaye-madjyam" target="_blank" rel="noopener">Mon profil professionnel</a>
+                    </div>
+                </div>
+
+                <p style="margin-top: 2rem; line-height: 1.7;">
+                    N'hésitez pas à me contacter pour toute demande d'information,
+                    de devis ou de partenariat. Je vous répondrai sous 48 heures.
+                </p>
+            </div>
+
+            <!-- Formulaire -->
+            <form id="contact-form" class="contact-form" novalidate>
+                <h3 style="color: var(--bleu-primaire); margin-bottom: 1.5rem;">Envoyer un message</h3>
+
+                <div class="form-group">
+                    <label for="nom">Nom complet *</label>
+                    <input type="text" id="nom" name="nom" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Adresse e-mail *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="sujet">Objet de la demande</label>
+                    <select id="sujet" name="sujet">
+                        <option value="">— Choisir —</option>
+                        <option value="Formation">Demande de formation</option>
+                        <option value="Consultance">Mission de consultance</option>
+                        <option value="Encadrement">Encadrement / mémoire</option>
+                        <option value="Collaboration">Collaboration / partenariat</option>
+                        <option value="Autre">Autre demande</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" required placeholder="Décrivez votre besoin, votre projet ou votre question..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-bleu" style="width: 100%;">Envoyer le message</button>
+
+                <div id="form-message" class="form-message"></div>
+
+                <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--gris-texte);">
+                    * Champs obligatoires. Vos informations restent strictement confidentielles.
+                </p>
+            </form>
+
+        </div>
+    </section>
+
+    <!-- ====== Footer ====== -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h4>Adoumbaye MADJYAM</h4>
+                <p>Statisticien-Économiste &amp; Ingénieur des Travaux Statistiques.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Navigation</h4>
+                <a href="index.html">Accueil</a>
+                <a href="travaux.html">Mes travaux</a>
+                <a href="services.html">Formations &amp; Consultance</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <a href="mailto:madjyamadoumbaye23@gmail.com">madjyamadoumbaye23@gmail.com</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; <span id="year">2026</span> DJAMZTAT — Tous droits réservés.
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

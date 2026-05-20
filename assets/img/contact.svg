@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="350" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#ffffff"/>
+  <rect x="100" y="100" width="300" height="180" rx="8" fill="#e3f2fd" stroke="#0a3d91" stroke-width="2"/>
+  <polyline points="100,100 250,210 400,100" fill="none" stroke="#0a3d91" stroke-width="2"/>
+  <line x1="100" y1="280" x2="220" y2="190" stroke="#0a3d91" stroke-width="2"/>
+  <line x1="400" y1="280" x2="280" y2="190" stroke="#0a3d91" stroke-width="2"/>
+  <circle cx="380" cy="120" r="22" fill="#e53935"/>
+  <text x="380" y="127" text-anchor="middle" font-family="Tahoma" font-size="18" fill="#ffffff" font-weight="bold">@</text>
+  <text x="250" y="330" text-anchor="middle" font-family="Tahoma" font-size="14" fill="#0a3d91" font-weight="bold">Restons en contact</text>
+</svg>

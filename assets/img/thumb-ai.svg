@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200">
+  <rect width="400" height="200" fill="#0277bd"/>
+  <g stroke="#ffffff" stroke-width="1" fill="none" opacity="0.5">
+    <line x1="80" y1="60" x2="180" y2="100"/><line x1="80" y1="100" x2="180" y2="100"/>
+    <line x1="80" y1="140" x2="180" y2="100"/><line x1="180" y1="100" x2="280" y2="60"/>
+    <line x1="180" y1="100" x2="280" y2="100"/><line x1="180" y1="100" x2="280" y2="140"/>
+    <line x1="280" y1="60" x2="340" y2="100"/><line x1="280" y1="100" x2="340" y2="100"/>
+    <line x1="280" y1="140" x2="340" y2="100"/>
+  </g>
+  <g fill="#ffeb3b">
+    <circle cx="80" cy="60" r="10"/><circle cx="80" cy="100" r="10"/><circle cx="80" cy="140" r="10"/>
+  </g>
+  <g fill="#ffffff">
+    <circle cx="180" cy="100" r="10"/><circle cx="280" cy="60" r="10"/>
+    <circle cx="280" cy="100" r="10"/><circle cx="280" cy="140" r="10"/>
+  </g>
+  <circle cx="340" cy="100" r="12" fill="#e53935"/>
+  <text x="200" y="195" text-anchor="middle" font-family="Tahoma" font-size="12" fill="#ffffff">Machine Learning &amp; IA</text>
+</svg>

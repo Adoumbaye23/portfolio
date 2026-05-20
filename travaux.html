@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes travaux — Adoumbaye MADJYAM</title>
+    <meta name="description" content="Travaux et productions du statisticien-économiste Adoumbaye MADJYAM : analyses, mémoires, rapports et études économétriques.">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- ====== Header ====== -->
+    <header class="site-header">
+        <div class="header-container">
+            <a href="index.html" class="logo"><img src="assets/img/mon-logo.jpeg" alt="Logo Adoumbaye MADJYAM"></a>
+            <button class="menu-toggle" aria-label="Menu">&#9776;</button>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="travaux.html">Mes travaux</a></li>
+                    <li><a href="services.html">Formations &amp; Consultance</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ====== Hero ====== -->
+    <section class="hero" style="padding: 3.5rem 2rem;">
+        <div class="hero-container">
+            <h1>Mes travaux réalisés</h1>
+            <p class="subtitle">Sélection de productions classées par domaine et matière</p>
+        </div>
+    </section>
+
+    <!-- ====== Travaux ====== -->
+    <section class="section">
+        <h2 class="section-title">Productions et publications</h2>
+        <p class="section-subtitle">Cliquez sur une fiche pour consulter le document PDF correspondant.</p>
+        <div class="section-divider"></div>
+
+        <!-- Filtres -->
+        <div class="filter-bar">
+            <button class="filter-btn active" data-filter="all">Tous</button>
+            <button class="filter-btn" data-filter="analyse-descriptive">Analyse descriptive</button>
+            <button class="filter-btn" data-filter="econometrie">Économétrie</button>
+            <button class="filter-btn" data-filter="logiciels-statistiques">Logiciels statistiques</button>
+            <button class="filter-btn" data-filter="intelligence-artificielle">Intelligence Artificielle</button>
+            <button class="filter-btn" data-filter="memoires-rapports">Mémoires &amp; Rapports</button>
+        </div>
+
+        <!-- Grille des travaux -->
+        <div class="travaux-grid">
+
+            <!-- Analyse descriptive -->
+            <div class="travail-card" data-category="analyse-descriptive">
+                <img class="travail-thumb" src="assets/img/trav-stats.jpg" alt="Analyse descriptive">
+                <div class="travail-body">
+                    <span class="travail-tag">Analyse descriptive</span>
+                    <h4>Étude statistique sur la consommation des ménages</h4>
+                    <p>Analyse descriptive multivariée des comportements de consommation à partir d'enquêtes nationales.</p>
+                    <a class="travail-link" href="pdfs/analyse-descriptive/etude-consommation-menages.pdf" target="_blank" rel="noopener">Consulter le PDF →</a>
+                </div>
+            </div>
+
+            <div class="travail-card" data-category="analyse-descriptive">
+                <img class="travail-thumb" src="assets/img/trav-acp.jpg" alt="ACP et classification">
+                <div class="travail-body">
+                    <span class="travail-tag">Analyse descriptive</span>
+                    <h4>ACP &amp; Classification — Profils socio-économiques</h4>
+                    <p>Application d'une Analyse en Composantes Principales et d'une CAH pour segmenter une population.</p>
+                    <a class="travail-link" href="pdfs/analyse-descriptive/acp-classification.pdf" target="_blank" rel="noopener">Consulter le PDF →</a>
+                </div>
+            </div>
+
+            <!-- Économétrie -->
+            <div class="travail-card" data-category="econometrie">
+                <img class="travail-thumb" src="assets/img/trav-econometrie.jpg" alt="VECM">
+                <div class="travail-body">
+                    <span class="travail-tag">Économétrie</span>
+                    <h4>Déterminants de l'inflation : approche VECM</h4>
+                    <p>Modélisation à correction d'erreur appliquée aux séries macroéconomiques nationales.</p>
+                    <a class="travail-link" href="pdfs/econometrie/inflation-vecm.pdf" target="_blank" rel="noopener">Consulter le PDF →</a>
+                </div>
+            </div>
+
+            <div class="travail-card" data-category="econometrie">
+                <img class="travail-thumb" src="assets/img/trav-logit.jpg" alt="Modèle Logit">
+                <div class="travail-body">
+                    <span class="travail-tag">Économétrie</span>
+                    <h4>Modèle Logit — Décision d'investissement</h4>
+                    <p>Étude des facteurs explicatifs de la décision d'investir à partir d'un modèle à variable qualitative.</p>
+                    <a class="travail-link" href="pdfs/econometrie/logit-investissement.pdf" target="_blank" rel="noopener">Consulter le PDF →</a>
+                </div>
+            </div>
+
+            <!-- Logiciels statistiques -->
+            <div class="travail-card" data-category="logiciels-statistiques">
+                <img class="travail-thumb" src="assets/img/trav-stata.jpg" alt="Code Stata">
+                <div class="travail-body">
+                    <span class="travail-tag">Logiciels</span>
+                    <h4>Manuel pratique de Stata pour l'économétrie</h4>
+                    <p>Support pédagogique illustré : commandes, scripts et études de cas avec Stata.</p>
+                    <a class="travail-link" href="pdfs/logiciels-statistiques/manuel-stata.pdf" target="_blank" rel="noopener">Consulter le PDF →</a>
+                </div>
+            </div>
+
+            <div class="travail-card" data-category="logiciels-statistiques">
+                <img class="travail-thumb" src="assets/img/trav-r.jpg" alt="Logiciel R">
+                <div class="travail-body">
+                    <span class="travail-tag">Logiciels</span>
+                    <h4>Initiation à R pour l'analyse de données</h4>
+                    <p>Introduction structurée à R : importation, manipulation, visualisation et modélisation.</p>
+                    <a class="travail-link" href="pdfs/logiciels-statistiques/initiation-r.pdf" target="_blank" rel="noopener">Consulter le PDF →</a>
+                </div>
+            </div>
+
+            <!-- IA -->
+            <div class="travail-card" data-category="intelligence-artificielle">
+                <img class="travail-thumb" src="assets/img/trav-ia.jpg" alt="IA">
+                <div class="travail-body">
+                    <span class="travail-tag">IA</span>
+                    <h4>L'IA au service du statisticien</h4>
+                    <p>Note méthodologique sur l'intégration des outils d'IA générative dans le travail statistique.</p>
+                    <a class="travail-link" href="pdfs/intelligence-artificielle/ia-statisticien.pdf" target="_blank" rel="noopener">Consulter le PDF →</a>
+                </div>
+            </div>
+
+            <div class="travail-card" data-category="intelligence-artificielle">
+                <img class="travail-thumb" src="assets/img/trav-ml.jpg" alt="Machine Learning">
+                <div class="travail-body">
+                    <span class="travail-tag">IA</span>
+                    <h4>Machine Learning appliqué à la prédiction de défaut</h4>
+                    <p>Comparaison de modèles supervisés (Logit, Random Forest, XGBoost) pour la prédiction du défaut de crédit.</p>
+                    <a class="travail-link" href="pdfs/intelligence-artificielle/ml-defaut-credit.pdf" target="_blank" rel="noopener">Consulter le PDF →</a>
+                </div>
+            </div>
+
+            <!-- Mémoires & rapports -->
+            <div class="travail-card" data-category="memoires-rapports">
+                <img class="travail-thumb" src="assets/img/trav-memoire.jpg" alt="Mémoire">
+                <div class="travail-body">
+                    <span class="travail-tag">Mémoire</span>
+                    <h4>Mémoire d'Ingénieur des Travaux Statistiques</h4>
+                    <p>Travail de fin de cycle — Méthodologie, analyses et résultats détaillés.</p>
+                    <a class="travail-link" href="pdfs/memoires-rapports/memoire-its.pdf" target="_blank" rel="noopener">Consulter le PDF →</a>
+                </div>
+            </div>
+
+            <div class="travail-card" data-category="memoires-rapports">
+                <img class="travail-thumb" src="assets/img/trav-rapport.jpg" alt="Rapport">
+                <div class="travail-body">
+                    <span class="travail-tag">Rapport</span>
+                    <h4>Rapport de stage professionnel</h4>
+                    <p>Compte rendu d'expérience en milieu professionnel et missions accomplies.</p>
+                    <a class="travail-link" href="pdfs/memoires-rapports/rapport-stage.pdf" target="_blank" rel="noopener">Consulter le PDF →</a>
+                </div>
+            </div>
+
+        </div>
+
+        <p style="text-align:center; margin-top: 2.5rem; color: var(--gris-texte); font-style: italic;">
+            Pour ajouter de nouveaux travaux, déposez vos fichiers PDF dans le dossier <code>pdfs/</code>
+            (dans le sous-dossier correspondant) puis dupliquez une fiche dans cette page en mettant à jour le lien.
+        </p>
+    </section>
+
+    <!-- ====== Footer ====== -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h4>Adoumbaye MADJYAM</h4>
+                <p>Statisticien-Économiste &amp; Ingénieur des Travaux Statistiques.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Navigation</h4>
+                <a href="index.html">Accueil</a>
+                <a href="travaux.html">Mes travaux</a>
+                <a href="services.html">Formations &amp; Consultance</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <a href="mailto:madjyamadoumbaye23@gmail.com">madjyamadoumbaye23@gmail.com</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; <span id="year">2026</span> Adoumbaye MADJYAM — Tous droits réservés.
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

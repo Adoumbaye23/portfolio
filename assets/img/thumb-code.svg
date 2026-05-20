@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200">
+  <rect width="400" height="200" fill="#1a1a2e"/>
+  <rect x="0" y="0" width="400" height="25" fill="#0a3d91"/>
+  <circle cx="15" cy="12" r="4" fill="#ff5252"/><circle cx="30" cy="12" r="4" fill="#ffeb3b"/><circle cx="45" cy="12" r="4" fill="#4caf50"/>
+  <text x="20" y="55" font-family="Tahoma" font-size="13" fill="#4caf50">> library(stats)</text>
+  <text x="20" y="80" font-family="Tahoma" font-size="13" fill="#90caf9">> reg &lt;- lm(y ~ x1 + x2)</text>
+  <text x="20" y="105" font-family="Tahoma" font-size="13" fill="#ffffff">> summary(reg)</text>
+  <text x="20" y="130" font-family="Tahoma" font-size="13" fill="#ffeb3b">Multiple R² : 0.847</text>
+  <text x="20" y="155" font-family="Tahoma" font-size="13" fill="#ffeb3b">F-stat : 124.5 ***</text>
+  <text x="20" y="185" font-family="Tahoma" font-size="13" fill="#90caf9">> _</text>
+</svg>

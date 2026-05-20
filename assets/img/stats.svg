@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="350" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#ffffff"/>
+  <line x1="50" y1="300" x2="470" y2="300" stroke="#0a3d91" stroke-width="2"/>
+  <line x1="50" y1="50" x2="50" y2="300" stroke="#0a3d91" stroke-width="2"/>
+  <rect x="80" y="200" width="50" height="100" fill="#1565c0" opacity="0.85"/>
+  <rect x="150" y="150" width="50" height="150" fill="#0277bd" opacity="0.85"/>
+  <rect x="220" y="100" width="50" height="200" fill="#0a3d91" opacity="0.9"/>
+  <rect x="290" y="170" width="50" height="130" fill="#1565c0" opacity="0.85"/>
+  <rect x="360" y="80" width="50" height="220" fill="#0277bd" opacity="0.9"/>
+  <polyline points="105,180 175,130 245,80 315,150 385,60"
+    fill="none" stroke="#e53935" stroke-width="3" stroke-linecap="round"/>
+  <g fill="#e53935">
+    <circle cx="105" cy="180" r="5"/><circle cx="175" cy="130" r="5"/>
+    <circle cx="245" cy="80" r="5"/><circle cx="315" cy="150" r="5"/>
+    <circle cx="385" cy="60" r="5"/>
+  </g>
+  <text x="250" y="335" text-anchor="middle" font-family="Tahoma" font-size="14" fill="#0a3d91" font-weight="bold">Analyse statistique</text>
+</svg>

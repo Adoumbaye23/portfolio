@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200">
+  <rect width="400" height="200" fill="#0a3d91"/>
+  <line x1="40" y1="170" x2="370" y2="170" stroke="#ffffff" stroke-width="2"/>
+  <line x1="40" y1="20" x2="40" y2="170" stroke="#ffffff" stroke-width="2"/>
+  <path d="M 40 165 Q 150 165 200 95 Q 250 25 360 25" fill="none" stroke="#ffeb3b" stroke-width="3"/>
+  <line x1="40" y1="95" x2="370" y2="95" stroke="#ffffff" stroke-width="1" stroke-dasharray="3,3" opacity="0.6"/>
+  <text x="200" y="195" text-anchor="middle" font-family="Tahoma" font-size="12" fill="#ffffff">Modèle Logit — P(Y=1)</text>
+</svg>
