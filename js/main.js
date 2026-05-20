@@ -37,17 +37,16 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Formulaire de contact (mailto + validation)
+    // Formulaire de contact (Formspree + validation)
     const contactForm = document.getElementById('contact-form');
     const formMessage = document.getElementById('form-message');
 
     if (contactForm) {
-        contactForm.addEventListener('submit', (e) => {
+        contactForm.addEventListener('submit', async (e) => {
             e.preventDefault();
 
             const nom = contactForm.nom.value.trim();
             const email = contactForm.email.value.trim();
-            const sujet = contactForm.sujet.value.trim();
             const message = contactForm.message.value.trim();
 
             if (!nom || !email || !message) {
@@ -63,13 +62,34 @@ document.addEventListener('DOMContentLoaded', () => {
                 return;
             }
 
-            const corps = `Nom : ${nom}%0D%0AEmail : ${email}%0D%0A%0D%0A${encodeURIComponent(message)}`;
-            const sujetMail = encodeURIComponent(sujet || 'Demande de contact via le site');
-            window.location.href = `mailto:madjyamadoumbaye23@gmail.com?subject=${sujetMail}&body=${corps}`;
+            const submitBtn = contactForm.querySelector('button[type="submit"]');
+            const originalText = submitBtn.textContent;
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Envoi en cours...';
 
-            formMessage.className = 'form-message success';
-            formMessage.textContent = 'Votre client de messagerie va s\'ouvrir. Merci de votre message !';
-            contactForm.reset();
+            try {
+                const response = await fetch(contactForm.action, {
+                    method: 'POST',
+                    body: new FormData(contactForm),
+                    headers: { 'Accept': 'application/json' }
+                });
+
+                if (response.ok) {
+                    formMessage.className = 'form-message success';
+                    formMessage.textContent = 'Merci ! Votre message a bien été envoyé. Je vous répondrai sous 48h.';
+                    contactForm.reset();
+                } else {
+                    const data = await response.json().catch(() => ({}));
+                    formMessage.className = 'form-message error';
+                    formMessage.textContent = data.errors?.map(e => e.message).join(', ') || 'Une erreur est survenue. Réessayez plus tard.';
+                }
+            } catch (err) {
+                formMessage.className = 'form-message error';
+                formMessage.textContent = 'Erreur réseau. Vérifiez votre connexion et réessayez.';
+            } finally {
+                submitBtn.disabled = false;
+                submitBtn.textContent = originalText;
+            }
         });
     }
 
